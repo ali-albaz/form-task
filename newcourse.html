@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Course</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">My Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="mycourses.html">My Courses</a></li>
+            <li><a href="newcourse.html">New Courses</a></li>
+        </ul>
+    </nav>
+
+    <br>
+
+    <form>
+        <label for="course-name">Course Name</label>
+        <input name="course-name" type="text" required>
+        
+        <label for="course-price">Course Price</label>
+        <input name="course-price" type="number" required>
+
+        <label for="course-img">Course Image</label>
+        <input name="course-img" type="file" accept="image/*" required>
+
+        <label for="online-offline">Online</label>
+        <input name="online-offline" type="radio" required>
+        
+        <label for="online-offline">Offline</label>
+        <input name="online-offline" type="radio" required>
+
+        <br><br>
+
+        <label for="instructor">Instructors</label>
+        <select name="instructor" id="" multiple required>
+            <option value="Ahmad">Ahmad</option>
+            <option value="Ali">Ali</option>
+            <option value="Obaida">Obaida</option>
+            <option value="Hassan">Hassan</option>
+        </select>
+
+        <br>
+        <br>
+
+        <input type="submit">
+
+    </form>
+</body>
+</html>
